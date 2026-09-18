@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.3.0-rc.12
+
+### Minor Changes
+
+- 51127c4: Gate `config.webSearch` on host capabilities: New Chat auto-enables with no toggle; New Agent / edit show a Runtime Config switch (default on when absent).
+
+### Patch Changes
+
+- 51127c4: Open Save Agent drawer on Clone with `{name}-clone` prefilled; stay on Agents list after save.
+- d29717b: Clarify MCP API key entry: Bearer placeholders, auto-prefix Authorization values, and a header-name hint on the form.
+- a273ed8: Preload Monaco when the UI shell mounts so tool request/response editors open faster.
+
 ## 0.3.0-rc.11
 
 ### Patch Changes
